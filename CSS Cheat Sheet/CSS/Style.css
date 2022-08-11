@@ -1,0 +1,115 @@
+
+body{
+    background-color: #ddccda;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: normal;
+    /*font: normal 32px courier New, Courier, monospace;*/
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color: black;
+}
+
+.container{
+    width:50%;
+    margin:auto;
+    
+}
+
+.box-1{
+    background-color: #333333;
+    color:#fff;
+
+    border: 5px palevioletred dashed;
+    border-width: 10px;
+    border-bottom-width: 10px;
+
+    padding: 20px;
+
+    margin:20px;
+    text-align: center;
+
+    /*You can edit the top, bottom, left, right for each border, padding, and margin. BUT if you want to do it as a whole you dont have to indicate the side...
+    
+    EXAMPLES ABOVE*/
+}
+
+.box-1 h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    
+}
+
+.box-2{
+    background-color: #333333;
+    color:#fff;
+    
+    border: 10px dotted palevioletred ;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.categories{
+    border: 5px #333 solid;
+    padding:20px;
+    border-radius: 15px;
+    margin: 20px;
+    
+
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+    list-style: none;
+}
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: solid 1px #333;
+    list-style-image: url('../images/check.png');
+}
+
+.my-form{
+    padding: 20px;  
+}
+
+.my-form.form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+}
